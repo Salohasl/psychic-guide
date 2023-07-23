@@ -1,0 +1,464 @@
+body{
+    margin: 0 auto;
+    background-color: black; 
+}
+
+/* -----header------ */
+
+.header{
+    height: 83px;
+}
+
+
+.active-home{
+    margin: 70px;
+    font-family: "Century Gothic";
+    color: #FFA688;
+    
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    
+    color:#FFA688;
+    font-size: 18px;
+    line-height: 78px;
+    
+}
+
+
+.about{
+    margin-left: 100px;
+    font-family: "Century Gothic";
+        
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    
+    color: white;
+    font-size: 18px;
+    line-height: 78px;
+
+}
+
+.contact{
+    margin-left: 30px;
+    font-family: "Century Gothic";
+    
+    
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    
+    color: white;
+    font-size: 18px;
+    line-height: 78px;
+}
+
+.portfolio{
+    margin-left: 30px;
+    font-family: "Century Gothic";
+    
+    
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    
+    color: white;
+    font-size: 18px;
+    line-height: 78px;
+}
+
+
+a:hover {
+    background-size: 100% 2px;
+}
+
+
+
+
+
+
+
+
+
+/* ------CONTENT-HOME-------  */
+
+
+
+.content-home{
+    height: 680px;
+    font-family: "Century Gothic";
+}
+
+/*------------LINE-------------*/
+
+.line1{
+    border: 1px solid white;
+    height: 300px;
+    
+    position: absolute;
+    left: 135px;
+    top: 97px;
+}
+
+.line2{
+    border: 1px solid white;
+    height: 300px;
+    
+    position: absolute;
+    left: 135px;
+    top: 428px;
+}
+/*-----------VK-TELEGA----------*/
+
+.vk{
+    margin-left: 120px;
+    margin-top: 330px;
+    position: absolute;
+}
+
+.telegram{
+    margin-left: 120px;
+    margin-top: 290px;
+    position: absolute;
+}
+
+
+/*----------TEXT----------*/
+
+.text{
+    position: absolute;
+    color: white;
+    margin-left: 280px;
+    margin-top: 250px;
+    font-size: 20px;
+}
+
+.text1{
+    position: absolute;
+    color: #FFA688;
+    font-size: 50px;
+    margin-left: 280px;
+    margin-top: 270px;
+}
+   
+.text2{
+    position: absolute;
+    color: #BCBCBD;
+    font-size: 20px;
+    margin-left: 280px;
+    margin-top: 325px;
+}       
+
+/*--------button----------*/
+
+.here-me{
+    position: absolute;
+    width: 10%;
+    height: 30px;
+    background-color: #FFA688;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 360px;
+    margin-left: 280px;
+    cursor: pointer;
+    transition: all 0.8s ;
+    
+    border-radius: 50%;
+}
+
+.here-me:hover{
+    background-color: white;
+}
+
+/*------------HACKER-IMG--------*/
+
+.hacker{
+    position: absolute;
+    width: 38%;
+    height: 500px;
+    margin-left: 700px;
+    margin-top: 50px;
+    
+}
+
+
+/*-------------contentABOUT-ME------*/
+
+.content-AboutMe{
+    display: flex;
+    height: 700px;
+    background-color: black;
+}
+
+.WebDev{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 135px;
+    
+    filter: invert(1)
+}
+
+h1{
+    text-align: center;
+    color: #FFA688;
+    font-size: 30px;
+    font-family: "Century Gothic";
+    margin-left: 580px;
+    margin-top: 50px
+}
+
+
+/*---------ТЕКСТ ОБО МНЕ----------*/
+
+p{
+    position: absolute;
+    color: #FFFFFF;;
+    width: 30%;
+    
+    left: 650px;
+    margin-top: 220px;
+
+    font-family: "Century Gothic" ;
+    font-size: 20px;
+}
+
+p1{
+    position: absolute;
+    color:  #FFFFFF;
+    width: 30%;
+    margin-left: 650px;
+    margin-top: 380px;
+    font-family: "Century Gothic";
+    font-size: 20px;
+}
+
+p2{
+    position: absolute;
+    color:  #FFA688;
+    width: 30%;
+    margin-left: 650px;
+    margin-top: 460px;
+    font-family: "Century Gothic";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/*--------VK1-TELEGRAM1---------*/
+
+.vk1{
+    position: absolute;
+    color:  #FFA688;
+    
+    margin-left: 270px;
+    margin-top: 450px;
+}
+
+
+.telegram1{
+    position: absolute;
+    
+    
+    margin-left: 320px;
+    margin-top: 450px;
+}
+
+
+
+
+/*----------CONTENT-PORTFOLIO--------------*/
+
+.content-portfolio{
+    background-color: white;
+    height: 700px;
+    background-color: black;
+}
+
+h2{
+    text-align: center;
+    color: #FFA688;
+    font-size: 40px;
+    font-family: "Century Gothic";
+}
+
+
+p3{
+    
+    margin-left: 540px;
+    color: white;
+    font-size: 50px;
+    font-family: "Century Gothic";
+}
+
+/*-------АНИМАЦИЯ ЗАГРУЗКИ------*/
+
+.loading1{
+    position: absolute;
+    border:1px solid white;
+    height: 7px;
+    width: 7px;
+    background-color: white;
+    border-radius: 50%;
+    
+    margin-top: 50px;
+    margin-left: 5px;
+    
+    animation: anim 0.6s infinite;
+}
+
+.loading2{
+    position: absolute;
+    border:1px solid white;
+    height: 7px;
+    width: 7px;
+    background-color: white;
+    border-radius: 50%;
+    
+    margin-top: 50px;
+    margin-left: 15px;
+    
+    
+    animation: anim 0.7s infinite;
+}
+
+.loading3{
+    position: absolute;
+    border:1px solid white;
+    height: 7px;
+    width: 7px;
+    background-color: white;
+    border-radius: 50%;
+    
+    margin-top: 50px;
+    margin-left: 25px;
+    
+    animation: anim 0.8s infinite;
+}
+
+@keyframes anim{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+/*--------Кнопка для переход на верх страницы----------*/
+
+.topbutton {
+    width:4%;
+    border:2px solid #FFA688;
+    background:black;
+    text-align:center;
+    padding:10px;
+    position:fixed;
+    bottom:50px;
+    right:15px;
+    cursor:pointer;
+    color:#FFA688;
+    background:black;;
+    font-family:"Century Gothic";
+    font-size:25px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all 0.5s;
+    }
+
+.topbutton:hover{
+    border-color: white;
+}
+
+
+
+    /*---------------MEDIA-------------*/
+
+@media only screen and (max-width:1200px){
+    .header{
+        font-size: 50px;
+        font-family: "Century Gothic";
+    }
+       
+    .hacker{
+        margin-left: 600px;
+    }
+    
+    h1{
+        margin-left: 450px;
+    }
+    
+    p1{
+        padding-top: 10px;
+    }
+    
+    .vk1{
+        padding: 30px;
+        margin-left: 160px;
+    }
+    
+    .telegram1{
+        padding: 30px;
+        margin-left: 200px;
+    }
+     
+    
+    p3{
+        margin-left: 400px;
+    }
+    
+}
+
+@media only screen and (max-width:992px){
+     
+    h1{
+        margin-left: 400px;
+    }
+    p1{
+        padding-top: 70px;
+    }
+    p2{
+        margin-left: 350px;
+        padding-top: 100px;
+    }
+    .vk1{
+        padding-top: 130px;
+        margin-left: -85px;
+    }
+    .telegram1{
+        padding-top: 130px;
+        margin-left: -45px;
+    }
+    
+    h2{
+        margin-left: 100px;
+    }
+    p3{
+        margin-left: 350px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    
+}
+
+@media only screen and (max-width:480px){
+    
+}
+
+@media only screen and (max-width:320px){
+    
+}
